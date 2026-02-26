@@ -1,0 +1,86 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f6fff8;
+  color: #111827;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CARD & BUTTONS */
+.card {
+  border-radius: 18px;
+  border: none;
+}
+
+.btn-success {
+  background-color: #22c55e;
+  border-color: #22c55e;
+}
+
+.btn-success:hover {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+.shadow-soft {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.input-rounded {
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+/* AUTH BACKGROUND */
+.auth-bg {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.auth-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: scale(1.1);
+}
+
+.auth-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.auth-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* NAV CLEAN */
+.nav-clean {
+  text-decoration: none !important;
+  color: #111827 !important;
+  font-weight: 500;
+}
+
+.nav-clean:hover {
+  color: #16a34a !important;
+}
+
+/* MOBILE MENU */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+  }
+}
