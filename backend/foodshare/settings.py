@@ -27,10 +27,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f%z6=p&wll^suk$ske=7w(jw=leu_pwob5%nlwxv91%^ybqg01'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = False
+
 
 ALLOWED_HOSTS = [
     "foodshare-lfjk.onrender.com",
+    "127.0.0.1",
+    "localhost",
 ]
 
 
